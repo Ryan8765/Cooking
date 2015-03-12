@@ -1,0 +1,24 @@
+<div class="height"> <!-- class height to stop background collapse on search -->
+	<div class="container">
+		<div class="col-sm-3"></div>
+		<div class="col-sm-6 search-background">
+			<div class="form-group">
+				<h4 class="center-text">Search Recipes</h4>
+				<input class="form-control" type="text" ng-model="search.title">
+			</div>
+		</div>
+		<div class="col-sm-3"></div>
+	</div>
+	<div>
+		<div class="center-text">
+			<a ng-repeat = "recipe in recipes | filter: search | orderBy: 'title'" href="#/recipes/{{ recipe.id }}">
+				<div class="recipes">
+					<img src="{{recipe.img}}" alt="{{recipe.title}} picture">
+					<h4>{{recipe.title}}</h4>
+				</div>
+			</a>
+		</div>
+	</div>
+</div>
+
+

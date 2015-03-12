@@ -1,0 +1,19 @@
+<div class="container">
+	<div class="center-text">
+		<h3 class='title'> {{ currentRecipe.title }} </h3>
+	</div>
+	<div class="col-md-1"></div>
+	<div class="col-md-5">
+		<div class="list-group">
+			<div class="list-title">Ingredients</div>
+			<p class="list-group-item" ng-repeat="item in currentRecipe.ingredients" ng-bind-html="trustAsHtml(item)"></p>
+		</div>
+	</div>
+	<div class="col-md-5">
+		<div class="list-group">
+			<div class="list-title">Directions</div>
+			<p class="list-group-item" ng-repeat="item in currentRecipe.directions" ng-bind-html="trustAsHtml(item)"></p>
+		</div>
+	</div>
+	<div class="col-md-1"></div>
+</div>
