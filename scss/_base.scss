@@ -10,6 +10,17 @@ body {
 
 /* Classes
 =====================================*/
+
+.recipe-image {
+	margin-bottom:25px;
+	text-align:center;
+	img {
+		border:1px solid white;
+		max-width:100%;
+	}
+}
+
+
 .autoplay {
 	width:60%;
 	margin-right:auto;
@@ -84,6 +95,24 @@ body {
 .media-object {
 	img {
 		border:1px solid black;
+	}
+}
+
+.media-body {
+	color:black;
+}
+
+.media-list {
+
+	li {
+		border:1px solid white;
+	}
+	
+	li:hover {
+		border:1px solid grey;
+	}
+	a:hover {
+		text-decoration: none;
 	}
 }
 
@@ -182,9 +211,7 @@ ul.nav.navbar-nav {
 
 /* Bootstrap Modifiers
 =====================================*/
-img.media-object {
 
-}
 /* media queries
 =====================================*/
 @media (max-width:768px) {

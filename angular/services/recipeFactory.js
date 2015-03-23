@@ -3,7 +3,7 @@
 		var recipes = [
 			{
 				id: 1,
-				img: "images/beefThumbnail.jpg",
+				img: "images/recipe-pictures/potatoes-surpeme.jpg",
 				title: "Potatoes Supreme",
 				servings: "Servings: 8 - 10",
 				ingredients: [
@@ -27,7 +27,7 @@
 
 			{
 				id: 2,
-				img: "images/beefThumbnail.jpg",
+				img: "images/recipe-pictures/spinach-and-artichoke-casserole.jpg",
 				title: "Spinach and Artichoke Casserole",
 				servings: "10-12",
 				ingredients: [
@@ -51,7 +51,7 @@
 
 			{
 				id: 3,
-				img: "images/beefThumbnail.jpg",
+				img: "images/recipe-pictures/beer-bread.jpg",
 				title: "Beer Bread",
 				servings: "Servings: 6-8",
 				ingredients: [
@@ -71,8 +71,8 @@
 			},//end beer bread
 
 			{
-				id:4,
-				img: "images/beefThumbnail.jpg",
+				id: 4,
+				img: "images/recipe-pictures/chicken-scampi.jpg",
 				title: "Chicken Scampi",
 				servings: "Servings: 4-6",
 				ingredients: [
@@ -97,7 +97,7 @@
 
 			{
 				id:5,
-				img: "images/beefThumbnail.jpg",
+				img: "images/recipe-pictures/baked-corn-in-sour-cream.jpg",
 				title: "Baked Corn in Sour Cream",
 				servings: "Servings: 6-8",
 				ingredients: [
@@ -125,7 +125,7 @@
 
 			{
 				id:6,
-				img: "images/beefThumbnail.jpg",
+				img: "images/recipe-pictures/spinach-artichoke-supreme.jpg",
 				title: "Spinach Artichoke Supreme",
 				servings: "Servings: 6",
 				ingredients: [
@@ -146,16 +146,16 @@
 
 			{
 				id:7,
-				img: "images/beefThumbnail.jpg",
+				img: "images/recipe-pictures/crab-stuffed-potatoes.jpg",
 				title: "Crab-Stuffed Potatoes",
 				servings: "Servings: 8",
 				ingredients: [
 					"4 medium baking potatoes",
 					"&frac12; cup butter",
 					"&frac12; cup heavy cream",
-					"$frac34; teaspoon of salt",
+					"&frac34; teaspoon of salt",
 					"&frac12; teaspoon ground white pepper",
-					"&frac13 cup minced green onions",
+					"&frac13; cup minced green onions",
 					"6&frac12; ounces crabmeat",
 					"&frac12; cup shredded Cheddar cheese"
 				],
@@ -172,7 +172,7 @@
 
 			{
 				id: 8, 
-				img: "images/beefThumbnail.jpg",
+				img: "images/recipe-pictures/spinach-enchilada-casserole.jpg",
 				title: "Spinach Enchilada Casserole",
 				servings: "Servings: 8",
 				ingredients: [
@@ -193,9 +193,9 @@
 					"In large skillet, cook ground beef with garlic, onion, salt and pepper until beef is crumbled and no longer pink",
 					"Add tomatoes, tomato sauce, green chiles, lime juice, sugar and spinach",
 					"Mix well",
-					"Cover and Simmer for 10 minutes",
+					"Cover and simmer for 10 minutes",
 					"Cut tortillas into quarters and dip into melted butter",
-					"Cover bottom of greased, 9x13 inch baking dish with half the tortilla quarters, overlapping slightly",
+					"Cover bottom of greased 9x13 inch baking dish with half the tortilla quarters, overlapping slightly",
 					"Spoon half of the beef mixture over tortillas",
 					"Sprinkle with half of cheese",
 					"Arrange rest of tortilla quarters over cheese, overlapping slightly",
@@ -207,16 +207,16 @@
 			},//end spinachEnchilada
 			{
 				id: 9, 
-				img: "images/beefThumbnail.jpg",
+				img: "images/recipe-pictures/double-rich-chocolate-cookies.jpg",
 				title: "Double-Rich Chocolate Cookies",
 				servings: "Yield: 4 dozen",
 				ingredients: [
-					'2 &frac12; all-purpose flour',
+					'2 &frac12; C all-purpose flour',
 					'&frac12; tsp. baking soda',
 					'&frac14; tsp. salt',
 					'&frac12; cup unsweetened cocoa powder',
 					'1 cup dark brown sugar, packed',
-					'&frac14; cup white flower', 
+					'&frac14; cup white flour', 
 					'1 cup salted butter, softened',
 					'3 large eggs',
 					'2 tsp. pure vanilla',
@@ -237,7 +237,7 @@
 			},//Double-Rich Chocolate Cookies
 			{
 				id: 10, 
-				img: "images/beefThumbnail.jpg",
+				img: "images/recipe-pictures/cinnamon-sugar-butter-cookies.jpg",
 				title: "Cinnamon Sugar Butter Cookies",
 				servings: "Yield: 3 dozen",
 				ingredients: [
@@ -265,7 +265,7 @@
 			},//end cinnamon sugar butter cookies
 			{
 				id: 11, 
-				img: "images/beefThumbnail.jpg",
+				img: "images/recipe-pictures/pumpkin-crunch-cake.jpg",
 				title: "Pumpkin Crunch Cake",
 				servings: "",
 				ingredients: [
@@ -291,7 +291,7 @@
 			},//Pumpkin Crunch Cake
 			{
 				id: 12, 
-				img: "images/beefThumbnail.jpg",
+				img: "images/recipe-pictures/sauerkraut-and-bean-soup.jpg",
 				title: "Sauerkraut and Bean Soup",
 				servings: "Servings: 4",
 				ingredients: [
@@ -313,7 +313,7 @@
 			},//end Sauerkraut and Bean Soup
 			{
 				id: 13, 
-				img: "images/beefThumbnail.jpg",
+				img: "images/recipe-pictures/winter-root-soup.jpg",
 				title: "Winter Root Soup",
 				servings: "Servings: 6-8",
 				ingredients: [
@@ -346,7 +346,7 @@
 			},//end Winter Root Soup
 			{
 				id: 14, 
-				img: "images/beefThumbnail.jpg",
+				img: "images/recipe-pictures/tomato-dill-soup.jpg",
 				title: "Tomato-Dill Soup",
 				servings: "Servings: 6",
 				ingredients: [
@@ -371,7 +371,7 @@
 			},//end Tomato Dill Soup
 			{
 				id: 15, 
-				img: "images/beefThumbnail.jpg",
+				img: "images/recipe-pictures/carrot-soup.jpg",
 				title: "Carrot Soup",
 				servings: "Servings: 6",
 				ingredients: [
@@ -398,8 +398,8 @@
 			},//Carrot Soup 
 			{
 				id: 16, 
-				img: "images/beefThumbnail.jpg",
-				title: "Squash and sun dried Tomato Soup",
+				img: "images/recipe-pictures/squash-and-sun-dried-tomato-soup.jpg",
+				title: "Squash and Sun Dried Tomato Soup",
 				servings: "Servings: 6",
 				ingredients: [
 					"1 butternut squash",
@@ -423,12 +423,12 @@
 					"Pur&eacute;e soup with a handheld blender",
 					"Thin with water if necessary",
 					"Add basil and season to taste",
-					"simmer gently about 5 minutes, ladle into heated bowls and serve with cultured cream"
+					"Simmer gently about 5 minutes, ladle into heated bowls and serve with cultured cream"
 				]
 			},//end Squash and sun dried tomato soup 
 			{
 				id: 17, 
-				img: "images/beefThumbnail.jpg",
+				img: "images/recipe-pictures/beef-bourgignon.jpg",
 				title: "Beef Bourgignon",
 				servings: "Servings: 6-8",
 				ingredients: [
@@ -439,7 +439,7 @@
 					"3 tablespoons extra virgin olive oil",
 					"&frac12; cup unbleached flour",
 					"Served small slivers orange peel",
-					"Serveral sprigs fresh thyme, tied together",
+					"Several sprigs fresh thyme, tied together",
 					"&frac12; teaspoon dried green peppercorns, crushed",
 					"1 pound fresh mushrooms",
 					"2 pounds medium boiling onions",
@@ -468,7 +468,7 @@
 			},//end Beef Bourgignon
 			{
 				id: 18, 
-				img: "images/beefThumbnail.jpg",
+				img: "images/recipe-pictures/all-day-beef-stew.jpg",
 				title: "All-Day Beef Stew",
 				servings: "Servings: 6-8",
 				ingredients: [

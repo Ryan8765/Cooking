@@ -15,6 +15,13 @@ body {
 
 /* Classes
 =====================================*/
+.recipe-image {
+  margin-bottom: 25px;
+  text-align: center; }
+  .recipe-image img {
+    border: 1px solid white;
+    max-width: 100%; }
+
 .autoplay {
   width: 60%;
   margin-right: auto;
@@ -75,6 +82,16 @@ body {
 
 .media-object img {
   border: 1px solid black; }
+
+.media-body {
+  color: black; }
+
+.media-list li {
+  border: 1px solid white; }
+.media-list li:hover {
+  border: 1px solid grey; }
+.media-list a:hover {
+  text-decoration: none; }
 
 .carousel img {
   border: 3px solid white; }
